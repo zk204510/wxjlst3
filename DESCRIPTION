@@ -1,0 +1,32 @@
+Package: wxjlst3
+Title: Cumulative Publication Analysis Toolkit
+Version: 0.0.0.9000
+Authors@R: 
+    person("Jialin", "Wu", email = "wujialin@example.com", 
+           role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0000-0000-0000"))
+Description: Provides automated analysis and visualization of academic 
+    publication trends over time. Processes Excel-based citation data with 
+    Chinese date formats, generates cumulative publication plots, and 
+    supports bibliometric analysis. Features include automated year-range 
+    detection, missing data handling, and publication-quality visualization 
+    outputs.
+License: GPL-3
+URL: https://github.com/yourusername/wxjlst3,
+     https://yourprojectwebsite.org
+BugReports: https://github.com/yourusername/wxjlst3/issues
+Depends: 
+    R (>= 3.6.0)
+Imports: 
+    readxl (>= 1.4.0),
+    ggplot2 (>= 3.4.0),
+    tools (>= 4.0.0),
+    stats (>= 3.6.0)
+Suggests: 
+    testthat (>= 3.0.0),
+    knitr (>= 1.40),
+    rmarkdown (>= 2.20)
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.2
